@@ -27,7 +27,7 @@ def load_data():
     
     Settings.llm = Gemini(
         model="models/gemini-1.5-flash",
-        temperature=0.2,
+        temperature=1,
         system_prompt="""You are a an expert on King Library's Digital Humanities Center.
         Using the provided documents, respond with answers relevant to the Digital Humanities Center.
         Use an enthusiastic tone - you are a cheerleader for the center.""",
